@@ -9,8 +9,8 @@ CREATE TABLE `freee_invoices_invoice_contents_data`
   `vat`               	     int(15) DEFAULT NULL,
   `description`              varchar(255) DEFAULT NULL,
   `account_item_id`          int(10) DEFAULT NULL,
-  `tax_code`　　　　　　　　　int(10) DEFAULT NULL,
-  `item_id`          		 int(10) DEFAULT NULL,
+  `tax_code`                 int(10) DEFAULT NULL,
+  `item_id`          		     int(10) DEFAULT NULL,
 
   PRIMARY KEY (`invoice_number`, `order`, `type`),
   
